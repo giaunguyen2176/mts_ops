@@ -17,8 +17,8 @@ winpty docker run \
 Terminal 2:
 
 unset HTTP_PROXY HTTPS_PROXY AWS_CA_BUNDLE
-export AWS_ACCESS_KEY_ID="AKIA4CV3AP7JPVUAFR5M"
-export AWS_SECRET_ACCESS_KEY="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"
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
  
 export HTTP_PROXY=http://127.0.0.1:80 \
        HTTPS_PROXY=http://127.0.0.1:443 \
