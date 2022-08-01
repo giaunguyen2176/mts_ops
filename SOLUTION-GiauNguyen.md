@@ -26,8 +26,13 @@ All related resources in this document:
 
 5. AWS credentials:
 
-    `username=tester`
-    `password=mts@tester2022`
+    Endpoint: https://830394630098.signin.aws.amazon.com/console
+    
+    Region: `ap-southeast-1`
+    
+    Username: `tester`
+    
+    Password: `mts@tester2022`
 
 ##How to deploy your API backend and/or frontend websites to ECS with Terraform?
 
