@@ -1,7 +1,35 @@
 #Terraform is amazing!
 
-##How to deploy your API backend and/or frontend websites to ECS with Terraform?
+Name: Giau Nguyen
 
+Email: minhgiau.nguyen@gmail.com
+
+All related resources in this document:
+
+1. Database schema: https://github.com/giaunguyen2176/mts_api/blob/main/migrations/schema.sql
+
+2. Repositories:
+
+    - Backend: https://github.com/giaunguyen2176/mts_api
+    - Frontend: https://github.com/giaunguyen2176/mts_web
+    - DevOps: https://github.com/giaunguyen2176/mts_ops
+
+3. Frontend: https://mts.escape30.com
+
+4. Backend link: 
+
+    - GET https://api.mts.escape30.com/api/v1/private/users
+    - GET https://api.mts.escape30.com/api/v1/private/users/:email
+    - POST https://api.mts.escape30.com/api/v1/users
+    
+    For private endpoints authentication, add header `x-api-key=8MWNZg05XZYtpAFZYwnA2n7Uu3hx90j7` to the request.
+
+5. AWS credentials:
+
+    `username=tester`
+    `password=mts@tester2022`
+
+##How to deploy your API backend and/or frontend websites to ECS with Terraform?
 
 ###1. Prerequisites
 
@@ -269,6 +297,4 @@ If later, you want to remove all resources, perform this command:
 `terraform destroy -var-file=dev.tfvars`
 
 Remember to type `yes` as confirmation.
-
-
 
